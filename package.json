@@ -1,0 +1,44 @@
+{
+  "name": "farm-monitor",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.24.0",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-config": "^0.11.7",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-reanimated": "^1.0.1",
+    "react-native-svg": "^9.4.0",
+    "react-native-svg-charts": "^5.2.0",
+    "react-native-tab-view": "^2.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-flowtype": "^3.9.1",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "flow-bin": "^0.98.1",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "prettier": "^1.17.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

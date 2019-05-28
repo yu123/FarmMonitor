@@ -1,0 +1,51 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:flowtype/recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "globals": {
+    "__DEV__": false
+  },
+  "parserOptions": {
+      "ecmaFeatures": {
+          "jsx": true
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+  },
+  "plugins": [
+      "react",
+      "flowtype"
+  ],
+  "rules": {
+      "react/jsx-filename-extension": ["off"],
+      "react/prop-types": ["off"],
+      "react/forbid-prop-types": ["off"],
+      "react/require-default-props": ["off"],
+      "import/no-extraneous-dependencies": ["off"],
+      "max-len": ["off"],
+      "no-shadow": ["off"],
+      "no-nested-ternary": ["off"],
+      "no-plusplus": ["off"],
+      "no-multi-assign": ["off"],
+      "quotes": ["error", "single", {"avoidEscape": true}],
+      "semi" : [2, "never"],
+      "prettier/prettier": [
+          "error",
+          {
+              "semi" : false,
+              "trailingComma": "es5",
+              "singleQuote": true,
+              "printWidth": 100
+          }
+      ]
+  }
+}
